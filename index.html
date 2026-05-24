@@ -19,9 +19,9 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/choco-bytes/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/choco-bytes/assets/vendor-4Q9NDpqI.js">
-    <link rel="stylesheet" crossorigin href="/choco-bytes/assets/vendor-C35ioOFP.css">
-    <link rel="stylesheet" crossorigin href="/choco-bytes/assets/index-AErba3o6.css">
+    <link rel="modulepreload" crossorigin href="/choco-bytes/assets/vendor-jb4a9kDY.js">
+    <link rel="stylesheet" crossorigin href="/choco-bytes/assets/vendor-Dp1hLHiZ.css">
+    <link rel="stylesheet" crossorigin href="/choco-bytes/assets/index-DRlfYv8T.css">
   </head>
   <body>
     <header class="header">
@@ -61,7 +61,34 @@
 
     <main>
       
-      
+      <section class="section desserts_list_section" id="desserts-list">
+  <div class="container desserts_list_container">
+    <div class="desserts-head">
+      <div class="desserts-head-txt">
+        <h2 class="desserts_title">Солодощі</h2>
+        <p class="desserts_description">
+          Спробуйте наші смачні десерти, які вас здивують!
+        </p>
+      </div>
+
+      <div class="desserts_categories-container">
+        <div class="categories-desktop"></div>
+
+        <div class="categories-mobile"></div>
+      </div>
+    </div>
+
+    <ul class="desserts-list"></ul>
+    <div class="loader is-hidden"></div>
+
+    <div class="load_more_btn">
+      <button class="desserts_load-more-btn" type="button">
+        Завантажити ще
+      </button>
+    </div>
+  </div>
+</section>
+
       
       
       <section class="faq-section" id="faq">
@@ -342,7 +369,26 @@
   </div>
 </div>
 
-    
+    <div class="backdrop" data-modal>
+  <div class="dessert-modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg width="24" height="24">
+        <use href="/choco-bytes/assets/icons-qp2qQD9b.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="dessert-modal__body">
+      <div class="dessert-modal__media"></div>
+
+      <div class="dessert-modal__info">
+        <div class="dessert_modal_content"></div>
+        <button type="button" class="modal-order-btn" data-order-open>
+          Перейти до замовлення
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
     
 
   </body>
